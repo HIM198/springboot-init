@@ -1,4 +1,4 @@
-package com.vounet.educationdemo01;
+package com.vounet.educationdemo02;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

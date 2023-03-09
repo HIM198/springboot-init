@@ -1,4 +1,4 @@
-package com.vounet.educationdemo01.generator;
+package com.vounet.educationdemo02.generator;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.annotation.IdType;
@@ -8,8 +8,9 @@ import com.baomidou.mybatisplus.generator.config.*;
 import com.baomidou.mybatisplus.generator.config.rules.DateType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
-import com.oracle.tools.packager.Log;
+
 import java.util.Scanner;
+
 
 //执行 main 方法，控制台输入模块表名，回车自动生成对应项目目录中
 public class MybatisPlusCodeGenerator {
@@ -20,7 +21,8 @@ public class MybatisPlusCodeGenerator {
      */
     public static String scanner() {
         Scanner scanner = new Scanner(System.in);
-        Log.info("请输入正确的表名,多个可使用,分隔");
+
+
         System.out.println("请输入正确的表名,多个可使用,分隔:");
         String input = scanner.next();
         if (!input.equals("")) {

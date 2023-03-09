@@ -1,6 +1,6 @@
-package com.vounet.educationdemo01.mapper;
+package com.vounet.educationdemo02.mapper;
 
-import com.vounet.educationdemo01.entity.Student;
+import com.vounet.educationdemo02.domain.entity.Student;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

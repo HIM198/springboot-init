@@ -1,7 +1,25 @@
 server:
-  port: 80
-
+  address: 0.0.0.0
+  port: 8081
+  servlet:
+    context-path: /api
+    # cookie 30 天过期
+    session:
+      cookie:
+        max-age: 2592000
+#mail
 spring:
+  mail:
+    host: smtp.qq.com
+    username: 1847527975@qq.com
+    password: dajrikrhgymiejdf
+    properties:
+      mail:
+        smtp:
+          enable: true
+    default-encoding: UTF-8
+
+
   application:
     name: reggie_take_out
   datasource:
@@ -19,3 +37,4 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: ASSIGN_ID
+

@@ -1,4 +1,4 @@
-package com.vounet.educationdemo01.entity;
+package com.vounet.educationdemo02.domain.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
