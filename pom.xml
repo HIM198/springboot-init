@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.vounet</groupId>
-    <artifactId>education-demo03</artifactId>
+    <artifactId>student-demo01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <description>Demo project for Spring Boot</description>
 

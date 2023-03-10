@@ -1,3 +1,4 @@
+
 server:
   address: 0.0.0.0
   port: 8081
@@ -36,5 +37,8 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   global-config:
     db-config:
-      id-type: ASSIGN_ID
+      id-type: ASSIGN_ID # 主键类型  AUTO->`数据库ID自增` INPUT->`用户输入ID` ASSIGN_ID->`分配ID` (数字类型唯一ID) ASSIGN_UUID->`分配UUID` (字符串类型UUID)
+      logic-delete-field: flag # 全局逻辑删除的实体字段名(since 3.3.0,配置后可以忽略不配置步骤2)
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
 

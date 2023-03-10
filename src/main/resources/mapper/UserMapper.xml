@@ -3,7 +3,7 @@
 <mapper namespace="com.vounet.educationdemo01.mapper.UserMapper">
 
 <!-- 通用查询映射结果 -->
-<resultMap id="BaseResultMap" type="com.vounet.educationdemo02.domain.entity.User">
+<resultMap id="BaseResultMap" type="com.vounet.studentdemo01.domain.entity.User">
     <result column="username" property="username" />
     <result column="password" property="password" />
     <result column="email" property="email" />
