@@ -11,8 +11,20 @@ import lombok.Data;
 
 @Data
 public class R<T> {
-    private int code = 0;  //编码：0成功，1和其它数字为失败
+
+    /**
+     * 编码：0成功，1和其它数字为失败
+     */
+    private int code = 0;
+
+    /**
+     * 返回消息
+     */
     private String msg = "";
+
+    /**
+     * 返回数据
+     */
     private Object data = null;
 
     public static <T> R success(T data) {
