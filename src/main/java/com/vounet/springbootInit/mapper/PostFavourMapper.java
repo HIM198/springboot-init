@@ -2,6 +2,7 @@ package com.vounet.springbootInit.mapper;
 
 import com.vounet.springbootInit.domain.entity.PostFavour;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
 * @author HIM198
@@ -9,6 +10,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 * @createDate 2023-03-12 18:22:07
 * @Entity com.vounet.springbootInit.domain.entity.PostFavour
 */
+@Mapper
 public interface PostFavourMapper extends BaseMapper<PostFavour> {
 
 }

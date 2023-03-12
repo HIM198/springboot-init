@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 @SpringBootTest
 @Slf4j
-class EducationDemo01ApplicationTests {
+class SpringbootInitApplicationTests {
     @Autowired
     DataSource dataSource;
 

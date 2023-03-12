@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages = {"com.vounet.springbootInit"})
 
-public class EducationDemo01Application {
+public class SpringbootInitApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EducationDemo01Application.class, args);
+        SpringApplication.run(SpringbootInitApplication.class, args);
     }
 
 }

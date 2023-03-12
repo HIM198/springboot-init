@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @Date 2023 18:55
  * @Description   全局跨域配置
  */
-// TODO: 2023/3/12 目前没有用上,需要更新 
+// TODO: 2023/3/12 目前没有用上,需要更新
 @Configuration
 public class CorsConfig implements WebMvcConfigurer {
 

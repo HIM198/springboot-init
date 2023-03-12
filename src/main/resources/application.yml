@@ -1,4 +1,4 @@
-
+#todo 需要自己修改的地方
 server:
   address: 0.0.0.0
   port: 8081
@@ -12,15 +12,18 @@ server:
 spring:
   application:
     name: reggie_take_out
-  profiles:
-    active: prod
-  datasource:
-    druid:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
-      username: root
-      password: 78787899
 
+    #todo 需要自己修改的地方
+  profiles:
+    active: dev
+#    #todo 需要自己修改的地方(没必要的地方不用配置,配置在后面的文件中)
+#  datasource:
+#    druid:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+#      username: root
+#      password: 78787899
+  #todo 需要自己修改的地方
   mail:
     host: smtp.qq.com
     username: 1847527975@qq.com
