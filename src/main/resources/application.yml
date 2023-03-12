@@ -8,8 +8,19 @@ server:
     session:
       cookie:
         max-age: 2592000
-#mail
+
 spring:
+  application:
+    name: reggie_take_out
+  profiles:
+    active: prod
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+      username: root
+      password: 78787899
+
   mail:
     host: smtp.qq.com
     username: 1847527975@qq.com
@@ -19,16 +30,6 @@ spring:
         smtp:
           enable: true
     default-encoding: UTF-8
-
-
-  application:
-    name: reggie_take_out
-  datasource:
-    druid:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/education02?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
-      username: root
-      password: 78787899
 
 mybatis-plus:
   configuration:
